@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: hatim
+      MYSQL_DATABASE: gestion_evenements
+    volumes:
+      - mysql-data:/var/lib/mysql
+    networks:
+      - app-network
+
+  php:
+    build: .
+    container_name: php
+    working_dir: /var/www/html
+    volumes:
+      - ../gestion_evenements:/var/www/html
+    networks:
+      - app-network
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ../gestion_evenements:/var/www/html
+      - ./nginx/ssl:/etc/ssl/certs:ro
+    networks:
+      - app-network
+    restart: unless-stopped
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  mysql-data:
