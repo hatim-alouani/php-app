@@ -9,46 +9,27 @@ This project is a full-featured **PHP-based Event Management System** that allow
 ### 🛠️ ***How to Run***
 
 We use a Makefile to simplify common development tasks:
+Builds Docker containers
+Installs Composer dependencies
+Starts the app with Docker Compose
+The app will be available at http://localhost
+Runs all unit tests inside tests/ using PHPUnit
 
 # 🔧 **Build and Start the Application**
 
 **make all**
-Builds Docker containers
-
-Installs Composer dependencies
-
-Starts the app with Docker Compose
-
-The app will be available at http://localhost
 
 # 🧪 **Run Tests**
 
 **make test**
-Initializes Composer (if needed)
-
-Installs PHPUnit
-
-Runs all unit tests inside tests/ using PHPUnit
 
 # 🧹 **Clean Everything**
 
-make clean
-Stops all containers
-
-Removes Docker containers and volumes
-
-Deletes Composer files (vendor/, composer.lock, composer.phar)
+**make clean**
 
 # 📦 **Dependencies**
-PHP 7.4+
-
-PHPUnit 9
-
-Composer
-
-MySQL
-
-Nginx (via Docker)
+Docker
+Make
 
 ## 🛠️ **To-Do / Improvements**
 Add pagination to lists
