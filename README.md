@@ -111,7 +111,9 @@ Removes Docker containers and volumes
 
 Deletes Composer files (vendor/, composer.lock, composer.phar)
 
+# ⚠️ **Final Note**
 
+💡 Keep Windows open... but use Linux. 🐧
 
 # 🛠️ **To-Do / Improvements**
 Add pagination to lists
