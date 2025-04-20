@@ -6,7 +6,7 @@ This project is a full-featured **PHP-based Event Management System** that allow
 
 ## 📁 **Project Structure**
 
-## 🛠️ **How to Run**
+### 🛠️ ***How to Run***
 
 We use a Makefile to simplify common development tasks:
 
@@ -21,9 +21,9 @@ Starts the app with Docker Compose
 
 The app will be available at http://localhost
 
-#🧪 **Run Tests**
+# 🧪 **Run Tests**
 
-make test
+**make test**
 Initializes Composer (if needed)
 
 Installs PHPUnit
