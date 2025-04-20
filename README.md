@@ -73,6 +73,9 @@ Before running this project, make sure you have the following installed:
 
 ```bash
 git clone https://github.com/hatim-alouani/php-app
+```
+
+```bash
 cd php-app
 ```
 
