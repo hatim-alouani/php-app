@@ -123,7 +123,7 @@ Admin panel UI improvements
 Add API support (optional)
 
 ## 👤 Contributors
-- **Salah-Eddine Diouane** - [GitHub](https://github.com/salah-diouane)
+- **ALOUANI Hatim** - [GitHub](https://github.com/hatim-alouani)
 
 ## 📜 License
 This project is licensed under the MIT License.
