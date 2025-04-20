@@ -8,9 +8,6 @@ all:
 	@echo -e "$(BLUE)[+] Starting Docker containers...$(NC)"
 	@docker compose -f docker/docker-compose.yml up --build
 	@echo -e "$(GREEN)[✔] Containers are running!$(NC)"
-	@echo -e "$(BLUE)[+] Creating Databases and Tables...$(NC)"
-	docker exec -i mysql mysql -u root -p$(MYSQL_ROOT_PASSWORD) < ./gestion_evenements/config/init.sql
-	@echo -e "$(GREEN)[✔] Databases and tables created!$(NC)"
 
 clean:
 	@echo -e "$(YELLOW)[-] Stopping and removing containers...$(NC)"
@@ -18,6 +15,15 @@ clean:
 	@echo -e "$(GREEN)[✔] Containers stopped and removed.$(NC)"
 	@echo -e "$(RED)[!] Removing volumes...$(NC)"
 	@docker system prune -af --volumes
+	@echo -e "$(RED)[!] Removing testing files...$(NC)"
+	@rm -rf eventManagement/vendor eventManagement/composer.lock eventManagement/composer.json
 	@echo -e "$(GREEN)[✔] Cleanup complete!$(NC)"
+
+
+test:
+	@docker exec -it php chmod +x /var/www/html/tests/run_tests.sh
+	@echo -e "$(YELLOW)[*] Running tests...$(NC)"
+	@docker exec -it php /var/www/html/tests/run_tests.sh
+	@echo -e "$(GREEN)[✔] Tests completed!$(NC)"
 
 re: clean all
