@@ -1,56 +1,58 @@
-# 🎉 Event Management System (Gestion d'Événements)
+# 🎉 **Event Management System (Gestion d'Événements)**
 
-This project is a full-featured PHP-based Event Management System that allows administrators to create and manage events, handle participant registrations, and view inscriptions. It follows a structured MVC (Model-View-Controller) architecture, is containerized with Docker, and includes automated testing using PHPUnit.
+This project is a full-featured **PHP-based Event Management System** that allows administrators to create and manage events, handle participant registrations, and view inscriptions. It follows a structured **MVC (Model-View-Controller)** architecture, is containerized with **Docker**, and includes automated testing using **PHPUnit**.
 
 ---
 
-## 📁 Project Structure
-Makefile
+## 📁 **Project Structure**
+
+```plaintext
+├── Makefile
 ├── docker
-│   ├── Dockerfile
-│   ├── docker-compose.yml
-│   └── nginx
-│       ├── default.conf
-│       └── ssl
-│           ├── server.crt
-│           └── server.key
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│   └── nginx
+│       ├── default.conf
+│       └── ssl
+│           ├── server.crt
+│           └── server.key
 ├── eventManagement
-│   ├── config
-│   │   └── Database.php
-│   ├── controllers
-│   │   ├── EventController.php
-│   │   ├── InscriptionController.php
-│   │   └── ParticipantController.php
-│   ├── index.php
-│   ├── models
-│   │   ├── EventModel.php
-│   │   ├── InscriptionModel.php
-│   │   └── ParticipantModel.php
-│   ├── public
-│   │   ├── css
-│   │   │   └── style.css
-│   │   └── js
-│   │       └── script.js
-│   ├── tests
-│   │   ├── EventModelTest.php
-│   │   ├── InscriptionModelTest.php
-│   │   ├── ListEventsTest.php
-│   │   ├── ListInscriptionsTest.php
-│   │   ├── ParticipantModelTest.php
-│   │   └── run_tests.sh
-│   └── views
-│       ├── events
-│       │   ├── create_event.php
-│       │   ├── delete_event.php
-│       │   ├── edit_event.php
-│       │   └── list_events.php
-│       ├── inscriptions
-│       │   └── list_inscriptions.php
-│       ├── layout
-│       │   ├── footer.php
-│       │   └── header.php
-│       └── participants
-│           └── register_participant.php
+│   ├── config
+│   │   └── Database.php
+│   ├── controllers
+│   │   ├── EventController.php
+│   │   ├── InscriptionController.php
+│   │   └── ParticipantController.php
+│   ├── index.php
+│   ├── models
+│   │   ├── EventModel.php
+│   │   ├── InscriptionModel.php
+│   │   └── ParticipantModel.php
+│   ├── public
+│   │   ├── css
+│   │   │   └── style.css
+│   │   └── js
+│   │       └── script.js
+│   ├── tests
+│   │   ├── EventModelTest.php
+│   │   ├── InscriptionModelTest.php
+│   │   ├── ListEventsTest.php
+│   │   ├── ListInscriptionsTest.php
+│   │   ├── ParticipantModelTest.php
+│   │   └── run_tests.sh
+│   └── views
+│       ├── events
+│       │   ├── create_event.php
+│       │   ├── delete_event.php
+│       │   ├── edit_event.php
+│       │   └── list_events.php
+│       ├── inscriptions
+│       │   └── list_inscriptions.php
+│       ├── layout
+│       │   ├── footer.php
+│       │   └── header.php
+│       └── participants
+│           └── register_participant.php
 └── screenshots
     ├── RegisterParticipaant.png
     ├── createNewEvent.png
