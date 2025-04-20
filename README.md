@@ -48,10 +48,8 @@ Admin panel UI improvements
 
 Add API support (optional)
 
-# 🧑‍💻 **Authors**
-👨‍💻 Developer A: Backend / Database / Tests
-
-🎨 Developer B: Frontend / UI Design
+# 🧑‍💻 **Author**
+👨‍💻 ALOUANI Hatim
 
 # 📃 **License**
 MIT License. Free to use and adapt.
