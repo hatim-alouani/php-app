@@ -60,7 +60,8 @@ This project is a full-featured **PHP-based Event Management System** that allow
     ├── listOfEvents.png
     └── listOfRegistations.png
 
-🛠️ How to Use make
+# 🛠️ **How to Run**
+
 We use a Makefile to simplify common development tasks:
 
 🔧 Build and Start the Application
