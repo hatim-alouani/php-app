@@ -6,6 +6,8 @@ This project is a full-featured **PHP-based Event Management System** that allow
 
 ## 📁 **Project Structure**
 
+```
+/Inception
 ├── Makefile
 ├── docker
 │   ├── Dockerfile
@@ -59,7 +61,7 @@ This project is a full-featured **PHP-based Event Management System** that allow
     ├── listOfEvents.png
     └── listOfRegistrations.png
 
-
+```
 ## 🛠️ ***How to Run***
 
 We use a Makefile to simplify common development tasks:
