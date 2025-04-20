@@ -1,4 +1,4 @@
-# 🎉 **Event Management System (Gestion d'Événements)**
+# 🎉 **Event Management Syste**
 
 This project is a full-featured **PHP-based Event Management System** that allows administrators to create and manage events, handle participant registrations, and view inscriptions. It follows a structured **MVC (Model-View-Controller)** architecture, is containerized with **Docker**, and includes automated testing using **PHPUnit**.
 
@@ -116,7 +116,7 @@ Deletes Composer files (vendor/, composer.lock, composer.phar)
 
 # ⚠️ **Final Note**
 
-💡 Keep Windows open... but use Linux. 🐧
+Keep Windows open... but use Linux.
 
 # 🛠️ **To-Do / Improvements**
 Add pagination to lists
