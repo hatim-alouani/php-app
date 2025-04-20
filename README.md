@@ -57,8 +57,8 @@ This project is a full-featured **PHP-based Event Management System** that allow
     ├── createNewEvent.png
     ├── index.png
     ├── listOfEvents.png
-    └── listOfRegistrations.pn
----
+    └── listOfRegistrations.png
+
 
 ## 🛠️ ***How to Run***
 
