@@ -7,7 +7,7 @@ This project is a full-featured **PHP-based Event Management System** that allow
 ## 📁 **Project Structure**
 
 ```
-/Inception
+/php-app
 ├── Makefile
 ├── docker
 │   ├── Dockerfile
