@@ -6,7 +6,7 @@ This project is a full-featured **PHP-based Event Management System** that allow
 
 ## 📁 **Project Structure**
 
-### 🛠️ ***How to Run***
+## 🛠️ ***How to Run***
 
 We use a Makefile to simplify common development tasks:
 
@@ -39,7 +39,7 @@ Docker
 
 Make
 
-## 🛠️ **To-Do / Improvements**
+# 🛠️ **To-Do / Improvements**
 Add pagination to lists
 
 Implement user authentication
