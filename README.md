@@ -62,9 +62,14 @@ This project is a full-featured **PHP-based Event Management System** that allow
     └── listOfRegistrations.png
 
 ```
-## 🛠️ ***How to Run***
+## 🛠 Prerequisites
 
-We use a Makefile to simplify common development tasks:
+Before running this project, make sure you have the following installed:
+- Docker
+- Docker Compose
+- Make
+
+## 🔧 Installation
 
 ```bash
 git clone https://github.com/hatim-alouani/php-app
@@ -106,20 +111,7 @@ Removes Docker containers and volumes
 
 Deletes Composer files (vendor/, composer.lock, composer.phar)
 
-# 📦 **Dependencies**
-PHP 7.4+
 
-PHPUnit 9
-
-Composer
-
-MySQL
-
-Nginx (via Docker)
-
-Docker
-
-Docker Compose
 
 # 🛠️ **To-Do / Improvements**
 Add pagination to lists
@@ -130,8 +122,8 @@ Admin panel UI improvements
 
 Add API support (optional)
 
-# 🧑‍💻 **Author**
-👨‍💻 ALOUANI Hatim
+## 👤 Contributors
+- **Salah-Eddine Diouane** - [GitHub](https://github.com/salah-diouane)
 
-# 📃 **License**
-MIT License. Free to use and adapt.
+## 📜 License
+This project is licensed under the MIT License.
