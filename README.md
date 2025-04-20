@@ -66,10 +66,16 @@ This project is a full-featured **PHP-based Event Management System** that allow
 
 We use a Makefile to simplify common development tasks:
 
+```bash
+git clone https://github.com/hatim-alouani/php-app
+cd php-app
+```
+
 # 🔧 **Build and Start the Application**
 
-**make all**
-
+```bash
+make all
+```
 Builds Docker containers
 
 Installs Composer dependencies
@@ -78,7 +84,9 @@ Starts the app with Docker Compose
 
 # 🧪 **Run Tests**
 
-**make test**
+```bash
+make test
+```
 
 Initializes Composer (if needed)
 
@@ -88,7 +96,9 @@ Runs all unit tests inside tests/ using PHPUnit
 
 # 🧹 **Clean Everything**
 
-**make clean**
+```bash
+make clean
+```
 
 Stops all containers
 
