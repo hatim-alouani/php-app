@@ -1,7 +1,0 @@
-{
-    "name": "event/system",
-    "require-dev": {
-        "phpunit/phpunit": "^9"
-    },
-    "require": {}
-}
