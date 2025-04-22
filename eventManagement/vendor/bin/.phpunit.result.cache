@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"EventModelTest::testEventModelCanBeInstantiated":0.018,"InscriptionModelTest::testInscriptionModelCanBeInstantiated":0.002,"ListEventsTest::testListEventsReturnsArray":0.003,"ListInscriptionsTest::testListInscriptionsReturnsArray":0.005,"ParticipantModelTest::testParticipantModelCanBeInstantiated":0.004}}
