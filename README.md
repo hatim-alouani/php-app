@@ -1,4 +1,4 @@
-# 🎉 **Event Management Syste**
+# 🎉 **Event Management System**
 
 This project is a full-featured **PHP-based Event Management System** that allows administrators to create and manage events, handle participant registrations, and view inscriptions. It follows a structured **MVC (Model-View-Controller)** architecture, is containerized with **Docker**, and includes automated testing using **PHPUnit**.
 
